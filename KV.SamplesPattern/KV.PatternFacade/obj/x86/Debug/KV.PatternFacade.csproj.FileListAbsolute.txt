@@ -1,0 +1,5 @@
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternFacade\bin\Debug\KV.PatternFacade.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternFacade\bin\Debug\KV.PatternFacade.exe
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternFacade\bin\Debug\KV.PatternFacade.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternFacade\obj\x86\Debug\KV.PatternFacade.exe
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternFacade\obj\x86\Debug\KV.PatternFacade.pdb

@@ -1,0 +1,18 @@
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternSingleton\bin\Debug\PatternSingleton.exe
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternSingleton\bin\Debug\PatternSingleton.pdb
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternSingleton\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternSingleton\obj\x86\Debug\PatternSingleton.exe
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternSingleton\obj\x86\Debug\PatternSingleton.pdb
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternSingleton\bin\Debug\PatternSingleton.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternSingleton\bin\Debug\PatternSingleton.pdb
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternSingleton\obj\x86\Debug\PatternSingleton.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternSingleton\obj\x86\Debug\PatternSingleton.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternSingleton\obj\x86\Debug\PatternSingleton.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternSingleton\obj\x86\Debug\PatternSingleton.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternSingleton\bin\Debug\PatternSingleton.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternSingleton\bin\Debug\PatternSingleton.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternSingleton\bin\Debug\PatternSingleton.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternSingleton\obj\x86\Debug\PatternSingleton.csprojResolveAssemblyReference.cache
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternSingleton\bin\Debug\PatternSingleton.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternSingleton\obj\x86\Debug\PatternSingleton.exe
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternSingleton\obj\x86\Debug\PatternSingleton.pdb

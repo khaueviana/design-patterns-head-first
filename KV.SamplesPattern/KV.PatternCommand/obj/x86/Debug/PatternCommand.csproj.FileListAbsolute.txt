@@ -1,0 +1,17 @@
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\bin\Debug\PatternCommand.exe
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\bin\Debug\PatternCommand.pdb
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\obj\x86\Debug\PatternCommand.exe
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\obj\x86\Debug\PatternCommand.pdb
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternCommand\bin\Debug\PatternCommand.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternCommand\bin\Debug\PatternCommand.pdb
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternCommand\obj\x86\Debug\PatternCommand.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternCommand\obj\x86\Debug\PatternCommand.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternCommand\obj\x86\Debug\PatternCommand.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternCommand\obj\x86\Debug\PatternCommand.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternCommand\bin\Debug\PatternCommand.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternCommand\bin\Debug\PatternCommand.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternCommand\bin\Debug\PatternCommand.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\bin\Debug\PatternCommand.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\obj\x86\Debug\PatternCommand.exe
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\obj\x86\Debug\PatternCommand.pdb

@@ -1,0 +1,6 @@
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\bin\Debug\KV.PatternCommand.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\bin\Debug\KV.PatternCommand.exe
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\bin\Debug\KV.PatternCommand.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\obj\x86\Debug\KV.PatternCommand.csprojResolveAssemblyReference.cache
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\obj\x86\Debug\KV.PatternCommand.exe
+C:\Users\khaueviana\Source\Repos\designpattern\KV.SamplesPattern\PatternCommand\obj\x86\Debug\KV.PatternCommand.pdb
