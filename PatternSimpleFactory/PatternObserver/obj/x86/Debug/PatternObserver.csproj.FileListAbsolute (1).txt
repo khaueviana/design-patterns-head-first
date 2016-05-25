@@ -1,0 +1,5 @@
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternObserver\bin\Debug\PatternObserver.exe
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternObserver\bin\Debug\PatternObserver.pdb
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternObserver\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternObserver\obj\x86\Debug\PatternObserver.exe
+D:\Google Drive\Estudos\ESTUDO ANÁLISE E PROJETO ORIENTADO AO OBJETO - USE A CABEÇA\Use a Cabeca - Padroes de Projeto\SamplesPattern\PatternObserver\obj\x86\Debug\PatternObserver.pdb

@@ -1,0 +1,5 @@
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\bin\Debug\PatternCommand.exe
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\bin\Debug\PatternCommand.pdb
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\obj\x86\Debug\PatternCommand.exe
+D:\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\ConsoleApplication1\obj\x86\Debug\PatternCommand.pdb

@@ -1,0 +1,10 @@
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternAdapter\bin\Debug\PatternAdapter.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternAdapter\bin\Debug\PatternAdapter.pdb
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternAdapter\obj\x86\Debug\PatternAdapter.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternAdapter\obj\x86\Debug\PatternAdapter.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternAdapter\obj\x86\Debug\PatternAdapter.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternAdapter\obj\x86\Debug\PatternAdapter.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternAdapter\bin\Debug\PatternAdapter.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternAdapter\bin\Debug\PatternAdapter.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternAdapter\bin\Debug\PatternAdapter.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternAdapter\obj\x86\Debug\PatternAdapter.csprojResolveAssemblyReference.cache

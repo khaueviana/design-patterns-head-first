@@ -1,0 +1,5 @@
+C:\Users\khaue.viana\Dropbox\TI\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\PatternIteratorComposite\bin\Debug\PatternIteratorComposite.exe
+C:\Users\khaue.viana\Dropbox\TI\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\PatternIteratorComposite\bin\Debug\PatternIteratorComposite.pdb
+C:\Users\khaue.viana\Dropbox\TI\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\PatternIteratorComposite\obj\Debug\PatternIteratorComposite.csprojResolveAssemblyReference.cache
+C:\Users\khaue.viana\Dropbox\TI\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\PatternIteratorComposite\obj\Debug\PatternIteratorComposite.exe
+C:\Users\khaue.viana\Dropbox\TI\Desenvolvimento Sistemas\Dot Net\C#\SamplesPattern\PatternIteratorComposite\obj\Debug\PatternIteratorComposite.pdb

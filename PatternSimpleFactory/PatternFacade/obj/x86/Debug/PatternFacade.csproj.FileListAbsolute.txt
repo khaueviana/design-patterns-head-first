@@ -1,0 +1,9 @@
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternFacade\bin\Debug\PatternFacade.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternFacade\bin\Debug\PatternFacade.pdb
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternFacade\obj\x86\Debug\PatternFacade.exe
+C:\Users\Khaue\Google Drive\Trabalho\Desenvolvimento de Software\Dot Net\C#\SamplesPattern\PatternFacade\obj\x86\Debug\PatternFacade.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternFacade\obj\x86\Debug\PatternFacade.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternFacade\obj\x86\Debug\PatternFacade.pdb
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternFacade\bin\Debug\PatternFacade.exe.config
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternFacade\bin\Debug\PatternFacade.exe
+C:\Users\khaueviana\Source\Repos\designpattern\PatternSimpleFactory\PatternFacade\bin\Debug\PatternFacade.pdb
