@@ -2,8 +2,6 @@ Design Pattern
 ==============
 Nesse projeto apresento alguns Design Patterns, tendo como referência o livro (clichê, mas útil) Use a Cabeça - Design Patterns.
 
-Abaixo uma breve descrição de cada Design Pattern:
-
 Abstract Factory Design Pattern
 -------------------------------
 O padrão Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
