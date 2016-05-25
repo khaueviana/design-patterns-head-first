@@ -23,6 +23,8 @@ O Padrão Composite permite construir estruturas de objetos na forma de árvores
 
 Usando uma estrutura composta, podemos aplicar as mesmas operações tanto à composição como a objetos individuais. Em outras palavras, na maioria dos casos ignorar as diferenças entre composições de objetos e objetos individuais.
 
+![Diagrama Composite Design Pattern](https://lh3.googleusercontent.com/-2-4t2osOYDo/V0UOpAMl7-I/AAAAAAAAcdk/pDzRFBxruNId58i25cK1x-nYPYTmkxueACLcB/s0/CompositeDiagram.png "CompositeDiagram.png")
+
 Decorator Design Pattern
 ------------------------
 Padrão Decorator anexa responsabilidades adicionais a um objeto dinamicamente. Os decoradores fornecem uma alternativa flexível de subclasse para estender a funcionalidade.
@@ -40,6 +42,7 @@ Utiliza a herança, a criação de objetos é delegada a subclasses que implemen
 Iterator Design Pattern
 -----------------------
 O padrão Iterator fornece uma maneira de acessar sequencialmente os elementos de um objeto agregado sem expor a sua representação subjacente.
+  ![Diagrama Iterator Design Pattern](https://lh3.googleusercontent.com/-LMy2fB05z8Y/V0UO5tdKvuI/AAAAAAAAcds/reAo2GiP5A0iZ6qLdJQ5iOMoMEwqqgyewCLcB/s0/IteratorDiagram.png "IteratorDiagram.png")
   
 Observer Design Pattern
 -----------------------
@@ -62,6 +65,8 @@ O Singleton pode ter um problema de múltiplos acessos, para isso é necessário
 State Design Pattern
 --------------------
 O Padrão State permite que um objeto altere o seu comportamento quando o seu estado interno muda. O objeto parecerá mudado de classe.
+
+![Diagrama State Design Pattern](https://lh3.googleusercontent.com/-ax3w8XYjkbE/V0UPG6dviEI/AAAAAAAAcd0/fboxk6diw7wzDZAxGuE-5QY-lbtxyafhQCLcB/s0/StateDiagram.png "StateDiagram.png")
 
 **State x Stategy**
 
