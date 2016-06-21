@@ -1,6 +1,6 @@
-Design Pattern
+Design Patterns - Head First
 ==============
-Nesse projeto apresento alguns Design Patterns, tendo como referência o livro (clichê, mas útil) Use a Cabeça - Design Patterns.
+Nesse projeto apresento alguns Design Patterns, tendo como referência o livro (clichê, mas útil) Use a Cabeça (Head First) - Design Patterns
 
 Abstract Factory Design Pattern
 -------------------------------
