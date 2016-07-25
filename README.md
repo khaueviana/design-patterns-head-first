@@ -2,6 +2,53 @@ Design Patterns - Head First
 ==============
 Nesse projeto apresento alguns Design Patterns, tendo como referência o livro (clichê, mas útil) Use a Cabeça (Head First) - Design Patterns
 
+Padrões Criacionais
+-------------------
+
+Envolvem a criação de instâncias de objetos; todos fornecem alguma maneira de desconectar o cliente dos objetos a partir dos quais serão geradas instâncias.
+
+Exemplos:
+
+	* Singleton
+	* Prototype
+	* Builder
+	* Factory Method
+	* Abstract Factory
+
+
+Padrões Estruturais
+-------------------
+
+Permitem que você organize classes ou objetos em estruturas maiores
+
+Exemplos:
+
+	* Decorator
+	* Composite
+	* Facade
+	* Bridge
+	* FlyWeight
+	* Adapter
+
+
+Padrões Comportamentais
+-----------------------
+
+Preocupam-se com a forma como as classes e objetos interagem e com a distribuição de responsabilidades
+
+Exemplos:
+
+	* Template Method
+	* Mediator
+	* Visitor
+	* Iterator
+	* Memento
+	* Command Strategy
+	* Interpreter
+	* Chair of Reponsability
+	* State Observer
+
+
 Abstract Factory Design Pattern
 -------------------------------
 O padrão Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
@@ -55,6 +102,8 @@ O Padrão Proxy fornece um substituto ou representante de outro objeto para cont
  - O Proxy controla o acesso a um objeto remoto; 
  - Um Proxy Virtual controla o acesso a um recurso cuja criação é onerosa; 
  - Um Proxy de proteção controla o acesso a um recurso com base em direitos de acesso.
+
+![enter image description here](https://lh3.googleusercontent.com/-s8wVMaqai3c/V5Vp8ydkvzI/AAAAAAAAc1I/AqUrfJCftmIS_qZfnXJs3NBq3ibsSroAACLcB/s0/proxy.gif "proxy.gif")
 
 Singleton Design Pattern
 ------------------------
