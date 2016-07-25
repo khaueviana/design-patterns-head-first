@@ -48,6 +48,8 @@ Exemplos:
 	* Chair of Reponsability
 	* State Observer
 
+Padrões
+=======
 
 Abstract Factory Design Pattern
 -------------------------------
