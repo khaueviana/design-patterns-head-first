@@ -363,3 +363,65 @@ Os diagramas de classes são uma ótima maneira de obter uma visão geral do seu
 	* Os diagramas de classes ignoram vários detalhes, como os construtores de classes, algumas informações sobre os tipos e a finalidade das operações das suas classes.
 	* A análise textual ajuda você a traduzir um caso de uso para as classes, atributos  operações do código.
 	* Os substantivos de um caso de uso são candidatos a classes de seu sistema e os verbos são candidatos a métodos das classes do seu sistema.
+
+Bullets - Opções além da herança
+======================
+
+Delegação
+-------------
+
+Quando você entrega a responsabilidade de uma determinada tarefa para outra classe ou método.
+
+A delegação é melhor utilizada quando você deseja usar a funcionalidade de outra classe, ou seja, sem alterar o comportamento.
+
+Se você precisa usar funcionalidade em outra classe, mas não deseja mudá-la, considere o uso da delegação em vez da herança.
+
+Delegue comportamento à outra classe quando você não quiser alterá-lo, mas não é responsabilidade do seu objeto implementar tal comportamento por conta própria.
+
+Se você precisar de comportamento de outra classe, mas não precisar alterá-lo, basta delegar para tal classe para usar o comportamento desejado.
+
+Composição
+----------
+
+Use a composição para juntar comportamento de outras classes.
+Quando referenciamos todas uma família de comportamentos estamos usando composição.
+
+A composição é mais poderosa quando você deseja usar o comportamento definido em um interface, e então opta por uma das implementações da interface, tanto no tempo de compilação como no tempo de execução.
+
+A composição permite que você utilize o comportamento de uma família de outras classes e altere no tempo de execução.
+
+Em uma composição, o objeto composto de outros comportamentos possui tais comportamentos. Quando o objeto é destruído, seus comportamentos também o serão.
+
+Os comportamentos em uma composição não existem fora da própria composição.
+
+Agregação
+---------
+
+O que acontece quando você deseja todos os benefícios da composição – flexibilidade ao escolher um comportamento e conformidade com o LSP - , mas os seus objetos compostos precisam existir fora do seu objeto principal? = AGREGAÇÃO!
+
+Quando uma classe é usada como parte de outra classe, mas ainda assim existe fora dela.
+
+Agregação versus composição
+---------------------------
+
+É fácil ficarmos confusos em relação a quando usar composição e quando devemos usar agregação. A forma mais fácil de descobrir qual delas usar é perguntando a si mesmo o objeto cujo comportamento eu quero utilizar existe fora do objeto que usa seu comportamento.
+
+Se o objeto fizer sentido por conta própria, então você deve usar a agregação; caso contrário, utilize a composição. Mas tenha cuidado! Algumas vezes, uma mudança mínima no uso dos seus objetos pode fazer toda a diferença.
+
+Composição
+----------
+
+Você pode reutilizar o comportamento de uma ou mais classes, em particular de uma família de classes, com a composição. O seu objeto **possui completamente** os objetos compostos e eles não existem fora da utilização desse objeto.
+
+A composição permite que você escolha um comportamento de uma família de comportamentos, quase sempre por meio de implementações de uma interface.
+
+Quando você utiliza a composição, o objeto composto possui os comportamentos que utiliza, que deixarão de existir assim que o objeto composto for destruído.
+
+Agregação
+---------
+
+Quando você quiser obter as vantagens da composição, mas estiver usando o comportamento de um objeto que existe fora do seu objeto, utilize a agregação.
+
+A agregação permite que você use os comportamentos de outras classe sem limitar o tempo de vida desses comportamentos.
+
+Os comportamentos agregados continuam a existir mesmo depois que o objeto agregado seja destruído.
