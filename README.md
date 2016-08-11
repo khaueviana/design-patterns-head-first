@@ -628,3 +628,99 @@ O processo de identificação, de coleta, de organização e de representação 
 	* O seu diagrama de casos de uso deve mostrar todos os recursos do seu sistema.
 	* A análise de de domínio está representando um sistema em uma linguagem que o cliente compreenderá.
 	* Um ator é tudo aquilo que interage com o seu sistema mas que não fazer.
+
+Príncipios de Projeto
+=====================
+Um princípio de projeto é uma ferramenta básica ou uma técnica que pode ser aplicada a um projeto ou à escrita de um código para tornar esse código mais flexível, extensível ou mais fácil de ser mantido.
+
+LSP - Princípio da Substituição de Liskov - Liskov Substituition Principle
+------------------------------------------------------------------------
+
+Os subtipos devem poder ser substituídos por seus tipos de base.
+
+O LSP está relacionado à herança bem projetada. Quando você herda de uma classe base, deve ser capaz de substituir a sua subclasse pela classe base sem que as coisas saiam terrivelmente erradas. Caso contrário, você terá usado a herança de forma incorreta.
+
+O código que faz mau uso da herança é díficil de entender.
+
+Quando você usa a herança, a sua subclasse obtém todos os métodos da sua superclasse, mesmo quando você não os quer. E se você usar a herança de forma incorreta, terminará com um monte de métodos indesejados, já que eles provavelmente não farão sentido em sua subclasse.
+
+E o que você pode fazer para evitar isso? Primeiro, veja se as suas subclasses podem substituir seus tipos base, o que estará apenas seguindo o LSP. Segundo, aprenda algumas alternativas para o uso de herança em seu código.
+
+O princípio de substituição de Liskov garante que você utilize a herança corretamente, exigindo que os subtipos possam ser substituídos por seus tipos base.
+
+Quando você encontrar um código que viole o LSP, considere o uso da delegação, composição ou da agregação para utilizar o comportamento de outras classes sem precisar recorrer à herança.
+
+DRY - Don't repeat yourself
+---------------------------
+
+Evite o código duplicado abstraindo coisas que são comuns e colocando-as em um único local.
+
+Ao usarmos o DRY, nós removemos o código duplicado. Porém, o mais importante é que movemos a implementação deste requisito para um único local em vez de dois.
+
+O DRY se aplica aos requisitos e também ao seu código: você deve ter cada recurso e requisito do seu software implementados em um único local.
+
+SRP - Single Responsibility Principle - Princípio da Responsabilidade Única
+------------------------------------------------------------------------
+
+
+O SRP está relacionado à responsabilidade e à função dos objetos do seu sistema. Você deseja que cada objeto projetado tenha somente uma responsabilidade – e quando algo sobre a responsabilidade muda, você saberá exatamente onde procurar pra fazer essas alterações em seu código.
+
+Todos os objetos do seu sistema devem ter uma única responsabilidade, e todos os serviços do objeto devem se concentrar em exercer essa responsabilidade única.
+
+Você implementou o princípio de responsabilidade única corretamente quando cada um dos seus objetos teve somente um motivo para mudar.
+
+Quando você está tentando determinar se um método é da responsabilidade de uma classe, pergunte-se se é tarefa dessa classe fazer essa determinada coisa. Se não for, mova o método para outra classe.
+
+**Coesão**
+
+Coesão é um termo que você ouvirá em conexão com a avaliação sobre até que ponto uma classe ou um módulo possui uma única finalidade ou responsabilidade.
+
+Dizemos que um módulo ou uma classe possui alta coesão quando ele é projetado em torno de um conjunto de funções relacionadas entre si e que possui baixa coesão quando incorpora um conjunto de funções dispares.
+
+A coesão é um conceito mais genérico do que o Princípio da Responsabilidade Única, mas ambos estão estreitamente ligados. As classes que seguem esse princípio tende a possuir mais coesão, sendo mais fáceis de manter do que as classes que assumem múltiplas responsabilidades e possuem baixa coesão.
+
+OCP - Princípio do aberto - fechado (OCP open/closed principle)
+---------------------------------------------------------------
+
+As classes devem ser abertas para extensão e fechadas para modificação.
+
+O código não pode mudar, mas pode existir a extensão de seu comportamento conforme a necessidade.
+
+O OCP está relacionado à flexibilidade e vai além do que a simples herança.
+
+É verdade que a herança é um exemplo muito simples do princípio aberto-fechado, mas há muito mais sobre ele do que somente criar subclasses e anular um método. Sempre que você escreve um código que funciona, deseja fazer o seu melhor para garantir que outras pessoas o alterem.
+
+Mas haverá ocasiões em que esse código precisará ser alterado talvez por uma ou duas determinadas situações. Em vez de simplesmente mergulhar no código e fazer um monte de mudanças, o OCP permite que você o estenda sem que ele seja alterado.
+
+Há várias maneiras diferentes de se fazer isso e, enquanto a herança é quase sempre a forma mais fácil de implementar, ela certamente não é a única opção (composição).
+
+O princípio do aberto-fechado mantém o seu software reutilizável e, ainda assim, flexível, ao manter as classes abertas para extensão e fechadas para modificação.
+
+Com classes executando uma única tarefa por meio do princípio de responsabilidade única, é ainda mais fácil aplicar o OCP ao seu código.
+
+Princípio Hollywood
+-------------------
+
+Não nos telefone, nós telefonaremos para você.
+
+O princípio Hollywood nos proporciona uma maneira de evitar o "colapso das dependências". Colapso das dependências é o que acontece quando você tem componentes de alto nível dependendo de componentes de baixo nível que dependem de componentes de alto nível que dependem de componentes laterais que dependem de componentes de baixo nível, e assim por diante. Quando essa estrutura entra em colapso, ninguém mais consegue entender como o sistema foi originalmente projetado.
+
+Com o princípio Hollywood, nós, permitimos que componentes de baixo nível se conectem ao sistema através de ganchos, mas são os componentes de alto nível que determinam quando e como eles serão solicitados. Em outras palavras, os componentes de alto nível dizem aos componentes de baixo nível "Não nos telefone, nós telefonaremos para você."
+
+Princípio do Conhecimento Mínimo
+--------------------------------
+
+Só fale com seus amigos mais próximos.
+
+Este princípio nos impede de criar projetos com um grande número de classes interconectadas, o que faz com que qualquer alteração numa parte do sistema exerça um efeito em cascata sobre outras partes. Um sistema com muitas dependências entre múltiplas classes é um sistema frágil, de difícil manutenção e complexo demais para ser compreendido por outros.
+
+Princípio da Inversão de Dependência
+------------------------------------
+
+Depende de abstrações. Não depende de classes concretas.
+
+No início, este princípio parece: “Programe para uma interface, e não para uma implementação”, certo? É parecido; no entanto, o princípio da inversão da dependência faz uma afirmação bem mais forte sobre a abstração. Ele sugere que nossos componentes de alto nível não dependam de nossos componentes de nível inferior; os dois devem depender de abstrações.
+
+**UM COMPONENTE DE ALTO NÍVEL É UMA CLASSE COM COMPORTAMENTO DEFINIDO EM TERMOS DE OUTROS COMPONENTES DE BAIXO NÍVEL. POR EXEMPLO, PIZZA STORE É UM COMPONENTE DE ALTO NÍVEL PORQUE SEU COMPORTAMENTO É DEFINIDO EM TERMOS DE PIZZAS – CRIA TODOS OS OBJETOS DE PIZZA DIFERENTES, PREPARA, ASSA, CORTA E ENCAIXOTA, EMBORA AS PIZZAS USADAS SEJAM COMPONENTES DE BAIXO NÍVEL.**
+
+A “inversão” no nome existe porque inverte o modo como você geralmente pensa em objetos concretos e depois na abstração. Mas a inversão é justamente pensar primeiro na abstração e depois nos objetos concretos.
