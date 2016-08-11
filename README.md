@@ -427,7 +427,8 @@ A agregação permite que você use os comportamentos de outras classe sem limit
 Os comportamentos agregados continuam a existir mesmo depois que o objeto agregado seja destruído.
 
 Bullets - Arquitetura
----------------------
+=====================
+
 
 A arquitetura é a sua estrutura de projeto e destaca as partes mais importantes da sua aplicação e os relacionamentos entre elas.
 
