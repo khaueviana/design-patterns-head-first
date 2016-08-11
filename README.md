@@ -143,5 +143,65 @@ Um ganhco ou hook é um método que é declarado na classe abstrata mas só rece
 
 O gancho deve ser um comportamento opcional.
 
+Capítulo 1
+==========
 
-  
+Grande software em três etapas simples:
+
+	1.  Verifique se o seu software faz o que o cliente deseja que ele faça
+	2. Aplique os princípios básicos da OO para adicionar flexibilidade
+	3. Empenhe-se para ter um projeto reutilizável e que possa ser mantido
+
+Não crie problemas para resolver problemas
+
+Use uma descrição textual do problema que você está tentando resolver para garantir que o seu projeto esteja alinhado à funcionalidade esperada de sua aplicação.
+
+	1. Os objetos devem fazer o que seus nomes indicam. Se um objeto é chamado de Jato, ele provavelmente deve decolar(), aterrissar(), mas não deve ter pegarPassagem() – isso é tarefa de outro objeto e não pertence a Jato.
+
+	2. Cada objeto deve representar um único conceito. Você não deseja objetos, que tenham duas ou três tarefas. Evite um objeto Pato que represente um pato real, um pato de borracha e alguém que caia em qualquer golpe bobo.
+
+	3. As propriedades não utilizadas são um peso morto. Se você possui um objeto que é frequentemente usado com propriedade sem valor ou nulas, provavelmente haverá um objeto executando mais de uma tarefa. Se você raramente possui valores para uma determinada propriedade, por que ela faz parte do objeto? Será que não podemos usar um objeto melhor  com somente um subconjunto dessas propriedades?
+
+
+Encapsulamento, conceito baseado no projeto do Head First.
+----------------------------------------------------------
+
+O encapsulamento também está relacionado à divisão de sua aplicação em partes lógicas, além de mantê-las separadas. Assim da mesma forma que você mantém os dados de suas classes separados do resto do comportamento da sua aplicação, podemos manter as propriedades genéricas de uma guitarra separadas do próprio objeto Guitar.
+
+Esse é o poder do encapsulamento: ao dividir sua aplicação em partes diferentes, você pode alterar uma parte sem precisar mudar as outras. Em geral, você deve encapsular as partes da sua aplicação que possam varias separadas das partes que permanecerão as mesmas.
+
+Delegar
+-------
+
+ A delegação acontece quando um objeto precisa executar uma certa tarefa e, em vez de executá-la diretamente, ele solicita que outro objeto lide com ela (ou, em algumas ocasiões, lide com somente uma parte da tarefa). Assim, neste quebra-cabeça de projeto, você quer que o método search() de Inventory peça que GuitarSpech diga se duas especificações são iguais, em vez de comparar os dois objetos GuitarSpec diretamente, no próprio método search().search() delega a comparação GuitarSpec.
+ 
+
+A delegação permite que cada objeto se preocupe com a sua própria regularidade (ou com alguma outra tarefa). Isso significa que os seus objetos são mais independentes uns dos outros, ou mais livremente unidos. Os objetos livremente unidos podem ser retirados de uma aplicação e facilmente reutilizados em outra, uma vez que eles não estão totalmente amarrados ao código de outros projetos.
+
+Os objetos estão livremente unidos em sua aplicação quando cada um possui uma única tarefa específica, não executando qualquer outra. Assim, a funcionalidade da sua aplicação é espalhada por vários objetos bem definidos, que realizam uma única tarefa de forma muito eficiente.
+
+As aplicações livremente unidas geralmente são mais flexíveis e fáceis de alterar. Uma vez que cada objeto e bastante independente dos outros, você pode fazer uma alteração no comportamento de um objeto sem ter de alterar todos os outros. Portanto, adicionar novos recursos ou funcionalidades se torna muito mais fácil.
+
+**DEFINIÇÃO SIMPLES: Ato de um objeto encaminhar uma operação para outro objeto, a ser executada em nome do primeiro.**
+
+**BULLETS**
+
+	* Não é preciso muita coisa para que algo dê errado com uma aplicação frágil.
+
+	* Você pode usar princípios da OO, como encapsulamento e delegação, para criar aplicações flexíveis.
+
+	* O encapsulamento divide sua aplicação em partes lógicas.
+
+	* A delegação oferece outro objeto a responsabilidade de lidar com uma determinada tarefa.
+
+	* Sempre inicie um projeto pela descoberta do que o cliente deseja.
+
+	* Depois de deixar a funcionalidade básica de uma aplicação funcionando, trabalhe no refinamento do projeto para que ela se torne flexível.
+
+	* Com um projeto funcional e flexível, você pode empregar padrões de projeto para aperfeiçoá-lo e para tornar a sua aplicação mais fácil de reutilizar.
+
+	* Descubra as partes da sua aplicação que estão em constante mudança e tente separá-las das partes que não mudam.
+
+	* Criar uma aplicação que funcione bem mas que possua um projeto fraco deixará o cliente satisfeito, embora deixe para você a dor, o sofrimento e várias noites corrigindo os problemas.
+
+	* Análise e Projeto de Orientação a Objetos (AePOO) oferece uma maneira de produzir aplicações bem projetadas que satisfaz tanto o cliente como o programador.
