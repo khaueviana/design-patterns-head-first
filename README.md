@@ -278,3 +278,26 @@ Extensões:
 	* Uma lista de requisitos que torna todos os seus casos de uso possíveis é um bom conjunto de requisitos.
 	* O sistema deve funcionar no mundo real e não somente quando tudo ocorre conforme o esperado.
 	* Quando algo dá errado, o seu sistema deve possuir caminhos alternativos para atingir seus objetivos.
+
+Capítulo 3
+==========
+
+A única constante da análise e projeto de software
+--------------------------------------------------
+
+Os requisitos sempre mudam. Entretanto, se você tiver bons casos de uso, normalmente poderá alterar o seu software rapidamente para se ajustar aos novos requisitos.
+
+Um caminho completo de um caso de uso, da primeira etapa até a última, é chamado de situação.
+
+A maioria dos casos de usos possui várias situações diferentes, mas elas sempre compartilham o mesmo objetivo do usuário.
+
+**BULLETS**
+
+	* Os requisitos sempre mudarão à medida que o projeto avançar.
+	* Quando os requisitos mudam, o seu sistema deve evoluir para lidar com os novos requisitos.
+	* Quando o seu sistema precisar funcionar de uma nova maneira ou de uma forma diferente, comece por atualizar o seu caso de uso.
+	* Uma situação é um caminho único em um caso de uso, do início ao fim.
+	* Um único caso de uso pode ter várias situações, desde que cada uma possua o mesmo objetivo do cliente.
+	* Os caminhos alternativos podem ser etapas que ocorrem somente algumas vezes ou que oferecem caminhos totalmente diferentes por meio de partes de um caso de uso.
+	* Se uma etapa for opcional no funcionamento de um sistema, ou se ela oferecer um caminho alternativo, usa as sub-etapas numeradas, como 3.1,4.1 e 5.1 ou 2.1.1, 2.2.1 e 2.3.1.
+	* Quase sempre você deve tentar evitar o código duplicado. É um pesadelo para a manutenção e normalmente aponta para problemas na forma como o sistema foi projetado.
