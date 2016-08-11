@@ -490,3 +490,140 @@ Os clientes não pagam você para obterem um grande código, eles o pagam para t
 	* Quando você não estiver certo dobre o significado de um recurso, converse com o cliente e então tente generalizar as respostas obtidas para ter um bom entendimento sobre o recurso.
 	* Utiliza a análise dos atributos comuns para criar soluções de software flexíveis.
 	* Os clientes estão muito mais interessados em um software que faça o que eles querem e que seja entregue no prazo do que no código que você acha que está muito legal.
+
+Bullets - Bom projeto = Software Flexível
+=========================================
+
+As classes abstratas são alocadores de espaço para as classes de implementação reais.
+
+A classe abstrata define o comportamento e as subclasses implementam.
+
+Sempre que você encontrar um comportamento comum em dois ou mais lugares, procure abstraí-lo para uma classe e então reutilize-o nas classes comuns.
+
+Interface
+---------
+
+Codificar para uma interface, em vez de para uma implementação, torna seu código mais fácil de estender.
+
+Ao codificar para uma interface, o seu código funcionará como todas subclasses da interface – até mesmo com aquelas que ainda não foram criadas.
+
+Encapsulamento
+--------------
+
+O encapsulamento ajuda você a proteger suas classes das alterações necessárias.
+
+Sempre que houver um comportamento em uma aplicação que aparentemente possa mudar, é preciso mover tal comportamento das partes da sua aplicação que provavelmente não mudarão com tanta frequência. Em outras palavras, você sempre deve tentar encapsular o que varia.
+
+O que é mudar?
+--------------
+
+Você já sabe que uma constante do software é mudar. O software que não é bem projetado desaba no primeiro sinal de mudança, mas um grande software pode ser facilmente alterado.
+
+A maneira mais fácil de tornar o seu software resiliente a mudanças é garantir que cada clase tenha somente um motivo para mudar. Em outras palavras, você estará minimizando as chances de que uma classe tenha de mudar ao reduzir o npumero de coisas daquela classe que pode causar a sua alteração.
+
+Quando você vê uma classe que possui mais de um motivo para mudar provavelmente ela está tentando fazer coisas demais. Verifique se você pode dividir a funcionalidade em várias classes, onde cada classe execute somente uma tarefa – e, portanto, tenha somente um motivo para mudar.
+
+Princípios da OO
+----------------
+
+	* Encapsule o que varia   
+	* Codifique para uma interface em vez de para uma implementação
+	* Cada classe da sua aplicação deve ter somente um motivo para mudar
+
+**APLIQUE OS PRINCÍPIOS BÁSICOS DA OO PARA ADICIONAR FLEXIBILIDADE**
+
+**Codifique uma vez, verifique duas (ou mais)**
+
+Continue analisando seus projetos quando encontrar problemas. Uma decisão tomada anteriormente pode ser a causa das dores de cabeça de agora.
+
+O projeto é iterativo... E você precisa querer alterar os seus próprios projetos, assim como aqueles que herda de outros programadores.
+
+**O orgulho mata o bom projeto**
+
+Nunca tenha medo de examinar as suas próprias decisões de projeto, e de aperfeiçoá-las, mesmo que isso signifique retrocede.
+
+A maioria dos bons projetos surge da análise de projetos ruins.
+
+Nunca tenha medo de cometer erros e de mudar tudo.
+
+Coesão e um motivo para a alteração de uma classe
+-------------------------------------------------
+
+Todas as classes devem tentar garantir que haja somente um motivo para isso, a morte de muitos programas mal projetados.
+
+A coesão é, na verdade, somente uma medição do grau de proximidade da funcionalidade das classes de uma aplicação. Se uma classe é composta de funcionalidade que está toda relacionada, então ela só terá um motivo para mudar....
+
+A coesão se concentra em como você criou cada classe, objeto e pacote individual do seu software. Se cada classe fizer somente algumas coisas que estão agrupadas, então provavelmente seu software será altamente coesivo. Mas se você tiver uma classe fazendo todo o tipo de coisas que não estão intimamente relacionadas, provavelmente você tem uma baixa coesão.
+
+Quanto mais coesivo for o seu software, mais livre será a união entre as classes.
+
+**GRANDE SOFTWARE**
+
+	1.	Verifique se o seu software faz o que o cliente deseja que ele faça.
+	2.	Aplique os princípios básicos da OO para adicionar flexibilidade.
+	3.	Empenhe-se para ter um projeto reutilizável e que possa ser mantido.
+	
+A melhor maneira de examinar um problema grande é vê-lo como um monte de partes de funcionalidade.
+
+Você pode resolver um problema grande dividindo-o em partes funcionais e então pode trabalhar em cada uma delas individualmente.
+
+Ao encapsular o que varia, você torna a sua aplicação mais flexível e mais fácil de alterar.
+
+Codificar para uma interface, em vez de para uma implementação torna o seu código mais fácil de estender.
+
+A análise ajuda você a garantir o funcionamento do seu sistema em um contexto do mundo real.
+
+O grande software é fácil de alterar e de estender e faz o que o cliente deseja que ele faça.
+
+Resolução de problemas realmente grandes
+----------------------------------------
+
+**Como é o sistema?**
+
+Uma forma de obter mais informações sobre um sistema é descobrir como ele é. Em outras palavras, há algo que você já saiba sobre o funcionamento ou sobre o comportamento do sistema.
+
+**Como o sistema não é?**
+
+Outra ótima forma de saber o que um sistema deve fazer é descobrir como ele não é. Isso ajuda a determinar como  o que você não precisa se preocupar no seu sistema.
+
+Sempre adie os detalhes o máximo que puder.
+
+**Recursos**
+
+O recurso é somente uma descrição de alto nível de algo que um sistema precisa fazer. Normalmente, você obtém os recursos por meio de uma conversa com seus clientes (ou participando de suas reuniões, como fizemos nas últimas páginas).
+
+Muitas vezes, você obterá um recursos e terminará com vários requisitos diferentes que poderão ser usados para atender àquele recursos. Assim, descobrir os recursos de um sistema é uma ótima maneira de começar a ter uma ideia de quais são os requisitos.
+
+Exemplo:
+
+Recurso = Oferece suporte a diferentes tipos de terreno.
+
+Esse é um recurso único que é obtido através do cliente. Esse recursos único resultará em vários requisitos diferentes.
+
+Obtenha recursos do cliente e então descubra quais são os requisitos de que você precisa para implementá-los.
+
+**Mais exemplos de recursos:**
+
+Oferece suporte a vários tipo de tropas ou de unidades específicas do jogo.
+
+Cada jogo possui um tabuleiro, composto de quadrados, cada um com um tipo de terreno.
+
+Utilize uma lista de recursos ou de requisitos para capturar as grandes tarefas que o seu sistema precisa executar.
+
+Desenhe um diagrama de casos de uso para mostrar o que é o seu sistema sem entrar em detalhes desnecessários.
+
+A análise de domínio permite que você verifique os seus projetos a ainda utilize a linguagem do cliente.
+
+Análise de Domínio
+
+O processo de identificação, de coleta, de organização e de representação das informações relevantes de um domínio, com base nos estudos de sistemas existentes e de seus históricos de desenvolvimento, conhecimento obtido de especialistas no domínio, teoria subjacente e tecnologia emergente.
+
+**BULLETS**
+	* A melhor maneira de examinar um grande problema é vê-lo como um conjunto de problemas menores.
+	* Assim como nos projetos pequenos, comece a trabalhar em projetos grandes obtendo recursos e requisitos.
+	* Os recursos são, normalmente, as coisas “grandes” que um sistema faz, mas também pode ser chamados de “requisitos” de forma intercambiável.
+	* Os atributos comuns e a inconstância oferecem a você pontos de comparação entre um sistema novo e aquilo que você já conhece.
+	* Os casos de uso são orientados a detalhes, os diagramas  de casos de uso se concentram mais na visão geral.
+	* O seu diagrama de casos de uso deve mostrar todos os recursos do seu sistema.
+	* A análise de de domínio está representando um sistema em uma linguagem que o cliente compreenderá.
+	* Um ator é tudo aquilo que interage com o seu sistema mas que não fazer.
