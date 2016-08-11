@@ -301,3 +301,65 @@ A maioria dos casos de usos possui várias situações diferentes, mas elas semp
 	* Os caminhos alternativos podem ser etapas que ocorrem somente algumas vezes ou que oferecem caminhos totalmente diferentes por meio de partes de um caso de uso.
 	* Se uma etapa for opcional no funcionamento de um sistema, ou se ela oferecer um caminho alternativo, usa as sub-etapas numeradas, como 3.1,4.1 e 5.1 ou 2.1.1, 2.2.1 e 2.3.1.
 	* Quase sempre você deve tentar evitar o código duplicado. É um pesadelo para a manutenção e normalmente aponta para problemas na forma como o sistema foi projetado.
+
+Capítulo 4
+==========
+
+A análise ajuda você a garantir o funcionamento do seu sistema em um contexto do mundo real.
+
+A chave para garantir que as coisas funcionem e que o mundo real não acabe com a sua aplicação é a análise: descobrir potenciais problemas e então resolvê-los antes que você libere a sua aplicação para o mundo real.
+
+**A PRIMEIRA ETAPA DE UMA BOA ANÁLISE É O DESCOBRIMENTO DE POTENCIAIS PROBLEMAS**
+
+Normalmente há mais de uma maneira de resolver um problema, e nem sempre há somente solução “correta”.
+
+Escreva os seus casos de uso de uma forma que faça sentido para você, para o seu chefe e para os seus clientes.
+
+A análise e os seus casos de uso permitem que você mostre aos clientes, aos gerentes e a outros desenvolvedores como o seu sistema funciona em um contexto de mundo real.
+
+Delegação
+---------
+
+A delegação protege seus objetos das mudanças de implementação feitas em outros objetos do software.
+
+Observação UML: nameMethod: Atribute [*] ← indica a multiplicidade de um atributo: a quantidade de um certo tipo que pode ser armazenado pelo atributo.
+
+Caso de Uso
+-----------
+
+Os substantivos de um caso de uso são normalmente as classe que precisam ser escritas e priorizadas em um sistema.
+
+O exame dos substantivos (e dos verbos) do seu caso de uso para descobrir as classes e o métodos é chamado de análise textual.
+
+Um bom caso de uso explica clara e precisamente que um sistema faz, em uma linguagem que pode ser facilmente compreendida.
+
+Após a conclusão de um bom caso de uso, a análise textual é uma maneira fácil e rápida de descobrir as classes do seu sistema.
+
+Preste atenção nos substantivos do seu caso de uso, mesmo quando eles não forem classes do seu sistema.
+
+Pense como as classes que você possui podem oferecer suporte ao comportamento descrito pelo seu caso de uso.
+
+Os verbos do seu caso de uso serão (normalmente) os métodos dos objetos do seu sistema
+------------------------------------------------------------------------
+
+Os substantivos do seu caso de uso normalmente são um bom ponto de partida para a descoberta das classes necessárias em seu sistema. Se você examinar os verbos do seu caso de uso, normalmente descobrirá os métodos necessários para os objetos que tais classes representam.
+
+Os diagramas de classes são uma ótima maneira de obter uma visão geral do seu sistema e de mostrar suas partes para colegas e para outros programadores. Mas ainda há muita coisa que eles não mostram.
+
+	1. Os diagramas de classe oferecem informações limitadas sobre o tipo
+	2. Os diagramas de classe não dizem como você deve codificar seus métodos
+	3. Os diagramas de classe oferecem somente uma visão geral do seu sistema
+
+**BULLETS**
+
+	* A análise ajuda você a garantir que o se u software funciona no contexto do mundo real e não somente em uma ambiente perfeito.
+	* Os casos de uso devem ser entendidos por você, por seus gerentes, por seus clientes e por outros programadores.
+	* Você deve escrever seus casos de uso no formato que tiver mais utilidade para você e para as outras pessoas que os examinarão.
+	* Um bom caso de uso apresenta com precisão o que um sistema faz, mas não indica como ele executará essa tarefa.
+	* Cada caso de uso deve se concentrar em apenas um objetivo do cliente. Se você tiver vários objetivos, precisará escrever vários casos de uso.
+	* Os diagramas de classe oferecem uma maneira fácil de mostrar o seu sistema e a construção do seu código em uma visão geral.
+	* Os atributos de um diagrama de classes normalmente mapeiam as variáveis membro das suas classes.
+	* As operações em um diagrama de classes normalmente representam os métodos das suas classes.
+	* Os diagramas de classes ignoram vários detalhes, como os construtores de classes, algumas informações sobre os tipos e a finalidade das operações das suas classes.
+	* A análise textual ajuda você a traduzir um caso de uso para as classes, atributos  operações do código.
+	* Os substantivos de um caso de uso são candidatos a classes de seu sistema e os verbos são candidatos a métodos das classes do seu sistema.
