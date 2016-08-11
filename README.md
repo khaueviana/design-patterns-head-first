@@ -205,3 +205,76 @@ As aplicações livremente unidas geralmente são mais flexíveis e fáceis de a
 	* Criar uma aplicação que funcione bem mas que possua um projeto fraco deixará o cliente satisfeito, embora deixe para você a dor, o sofrimento e várias noites corrigindo os problemas.
 
 	* Análise e Projeto de Orientação a Objetos (AePOO) oferece uma maneira de produzir aplicações bem projetadas que satisfaz tanto o cliente como o programador.
+
+Capítulo 2
+==========
+
+O que é um requisito?
+---------------------
+
+É uma função específica que o seu sistema deve realizar para funcionar corretamente.
+
+Um requisito é uma necessidade única que detalha o que um produto ou serviço em particular deve ser ou fazer. É mais comumente utilizado em um sentido formal na engenharia de sistemas ou engenharia de software.
+
+Ouça o cliente
+--------------
+
+Quando se trata de requisitos, a melhor coisa que você pode fazer é deixar o cliente falar. E preste atenção no que o sistema precisa fazer; você pode descobrir como ele fará as coisas mais tarde.
+
+**Planeje para quando as coisas derem errado!**
+
+Caso de uso
+-----------
+
+Um caso de uso descreve o que o seu sistema faz para atingir um determinado objetivo do cliente.
+
+Um caso de uso é uma técnica de captura de requisitos potenciais de um novo sistema ou de uma alteração no software. Cada caso de uso oferece uma ou mais situações que conduzem a como o sistema deve interagir com o usuário final ou com outro sistema para atingir um objetivo específico.
+
+Um caso de uso, três partes
+---------------------------
+
+**Valor evidente**
+Todos os casos de uso devem ter um valor evidente para o sistema. Se ele não ajudar o cliente a atingir seu objetivo, então não servirá para muita coisa.
+
+**Início e fim**
+Todos os casos de uso devem ter um ponto de partida e um ponto de chegada definidos. Algo deve iniciar o processo, e em seguida, deve haver uma condição que indique que o processo foi concluído.
+
+**Iniciador externo**
+Todos os casos de uso são disparados por um iniciador externo ao sistema. Em algumas ocasiões, esse iniciador é uma pessoa, mas ele poderia ser qualquer coisa fora do sistema.
+
+Exemplo de um caso de uso:
+
+Porta para cachorros do John e Tex
+Ator principal: Tex
+Ator Coadjuvante: John
+Pré-condições:  A porta para cachorros está aberta para que Tex volte para dentro
+Objetivo: Tex utiliza o banheiro e volta para dentro de casa sem trazer lama consigo
+
+Caminho principal:
+
+	1. Tex sai
+	2. A porta para cachorros fecha automaticamente.
+	3. Tex faz o que queria fazer.
+	4. John pressiona um botão.
+	5. A porta para cachorros abre.
+	6. Tex volta para dentro.
+	7. A porta fecha automaticamente.
+
+Extensões:
+
+	3.1. Tex se suja com a lama
+	3.2. John limpa o Tex
+
+**BULLETS**
+
+	* Os requisitos são aquilo que deve funcionar corretamente em seu sistema.
+	* Seus requisitos iniciais normalmente serão obtidos do cliente.
+	* Para garantir que você possui um bom conjunto de requisitos, você deve desenvolver casos de uso para o seu sistema.
+	* Um caso de uso possui um único objetivo, mas pode ter vários caminhos para alcançá-lo.
+	* Um bom caso de uso possui uma condição inicial e uma final, um iniciador externo e um valor evidente para o usuário.
+	* Um caso de uso é simplesmente uma estória sobre como o seu sistema funciona.
+	* Você terá pelo menos um caso de uso para cada objetivo que o seu sistema deverá cumprir.
+	* Depois que os seus casos de uso estiverem concluídos, você poderá refinar e adicionar requisitos.
+	* Uma lista de requisitos que torna todos os seus casos de uso possíveis é um bom conjunto de requisitos.
+	* O sistema deve funcionar no mundo real e não somente quando tudo ocorre conforme o esperado.
+	* Quando algo dá errado, o seu sistema deve possuir caminhos alternativos para atingir seus objetivos.
