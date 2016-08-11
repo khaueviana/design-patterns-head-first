@@ -619,6 +619,7 @@ Análise de Domínio
 O processo de identificação, de coleta, de organização e de representação das informações relevantes de um domínio, com base nos estudos de sistemas existentes e de seus históricos de desenvolvimento, conhecimento obtido de especialistas no domínio, teoria subjacente e tecnologia emergente.
 
 **BULLETS**
+
 	* A melhor maneira de examinar um grande problema é vê-lo como um conjunto de problemas menores.
 	* Assim como nos projetos pequenos, comece a trabalhar em projetos grandes obtendo recursos e requisitos.
 	* Os recursos são, normalmente, as coisas “grandes” que um sistema faz, mas também pode ser chamados de “requisitos” de forma intercambiável.
