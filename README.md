@@ -425,3 +425,67 @@ Quando você quiser obter as vantagens da composição, mas estiver usando o com
 A agregação permite que você use os comportamentos de outras classe sem limitar o tempo de vida desses comportamentos.
 
 Os comportamentos agregados continuam a existir mesmo depois que o objeto agregado seja destruído.
+
+Bullets - Arquitetura
+---------------------
+
+A arquitetura é a sua estrutura de projeto e destaca as partes mais importantes da sua aplicação e os relacionamentos entre elas.
+
+A arquitetura é a estrutura organizacional de um sistema, incluindo a sua decomposição em partes, sua conectividade, mecanismos de interação e os princípios e decisões norteadores utilizados no projeto.
+
+As partes da sua aplicação que são realmente importantes são arquiteturalmente significativas e você deve se concentrar nelas PRIMEIRO.
+
+Nos projetos menores, nós usamos uma lista de requisitos para escrever a 
+funcionalidade; nos projetos maiores, temos usado uma lista de recursos para descobrir como as coisas funcionam.
+
+As três perguntas da arquitetura
+
+	1 Ele faz parte da essência do sistema. 
+	  
+	  O recurso é realmente fundamental para a função do sistema? Pense desta maneira: você pode imaginar o sistema sem tal recurso? Se a resposta for negativa, então provavelmente você encontrou um recurso que faz parte da essência de um sistema.
+	  
+	2 Mas o que isso significa?
+	
+	  Se você não ter certeza sobre o que realmente significa a descrição de um determinado recurso, é provável que seja muito importante prestar atenção nele. Sempre que estiver indeciso sobre o que algo significa, você pode perder muito tempo ou criar problemas para o resto do sistema. Passe um tempo com esses recursos no início, em vez de deixar para mais tarde.
+	  
+	3 Como eu faço isto?
+	
+	  Outro local em que você deve prestar atenção logo cedo é nos recursos que parecem ser realmente difíceis de implementar, ou nas tarefas de programação totalmente novas para você. Se você não tem menor ideia de como vai lidar com um determinado problema, é melhor passar algum tempo antes examinando esse recurso, para que ele não crie um monte de problemas pelo caminho.
+
+A essência de um sistema é o que é no seu nível mais básico.
+
+Concentre-se em um recurso por vez para reduzir os riscos em seu projeto.
+
+Não se distraia com recursos que não ajudarão a reduzir os riscos.
+
+A arquitetura é a sua estrutura de projeto e destaca as partes mais importantes da sua aplicação e os relacionamentos entre elas.
+
+Os atributos comuns são mais do que simplesmente nomes de propriedades... Você precisa fazer um exame mais profundo.
+
+Análise dos atributos comuns: o caminho para o software flexível.
+O bom projeto reduzirá os riscos.
+
+Algumas vezes a melhor forma de escrever um grande código é adiar essa atividade o máximo que você puder.
+
+**Indecisão sobre um recurso:**
+
+**1 Pergunte ao cliente.**
+**O que o recurso significa?**
+
+**2 Análise dos atributos comuns:**
+**Como eu posso usar este recurso no meu sistema?**
+
+**3 Plano de implementação.***
+
+Os clientes não pagam você para obterem um grande código, eles o pagam para terem um grande software.
+
+**BULLETS**
+
+	* A arquitetura ajuda você a transformar todos os seus diagramas, planos e listas de recursos em uma aplicação bem ordenada.
+	* Os recursos do seu sistema que são mais importantes para o projeto são arquiteturalmente significativos.
+	* Concentre-se primeiro nos recursos que são a essência do seu sistema, cujos significados não estejam claros ou que você não saiba como eles serão implementados.
+	* Tudo o que você fizer nas fases arquiteturais de um projeto deve reduzir os riscos ao sucesso do seu projeto.
+	* Se você ão precisar de todos os detalhes de um caso de uso, pode escrever uma situação detalhando como o seu software poderia ser usado para ajudá-lo a obter requisitos mais rapidamente.
+	* Quando você não estiver certo dobre o significado de um recurso, converse com o cliente e então tente generalizar as respostas obtidas para ter um bom entendimento sobre o recurso.
+	* Utiliza a análise dos atributos comuns para criar soluções de software flexíveis.
+	* Os clientes estão muito mais interessados em um software que faça o que eles querem e que seja entregue no prazo do que no código que você acha que está muito legal.
